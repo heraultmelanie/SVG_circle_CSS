@@ -1,0 +1,22 @@
+svg {
+    height: 340px;
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+    transform: rotate(-90deg);
+  
+}
+circle {
+    stroke-width: 1;
+    fill: transparent;
+    stroke: #000;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    animation: 10s linear outline forwards;
+}
+  
+@keyframes outline {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
